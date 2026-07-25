@@ -67,3 +67,5 @@ Time Series Forecasting
 Data Visualization
 
 Dataset:Olist-Brazilian-E-Commerce from Kaggle
+Power BI Dashboard:
+https://drive.google.com/file/d/1UJln4l6apv7ozjNVKTkHet8tLLPir2n-/view?usp=sharing
