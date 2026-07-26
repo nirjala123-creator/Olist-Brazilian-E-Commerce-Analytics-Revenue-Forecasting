@@ -1,71 +1,62 @@
 # Olist-Brazilian-E-Commerce-Analytics-Revenue-Forecasting
 
-Overview:
-This project presents an end-to-end analysis of the Olist Brazilian E-Commerce dataset. It includes data cleaning using Python, business analysis with PostgreSQL, an interactive Power BI Logistics & Operations dashboard, and monthly revenue forecasting using Prophet.
+## Project Objective
+The objective of this project is to analyze the Olist Brazilian E-Commerce dataset to uncover business insights related to sales performance, customer behavior, logistics, seller performance, and payment trends. The project also forecasts future monthly revenue using Facebook Prophet to support business planning.
 
-Tech Stack
-Python: Pandas, NumPy, Matplotlib
-Database: PostgreSQL
-Query Language: SQL
-Visualization: Power BI
-Forecasting: Prophet
+## Dataset
+- Source: Kaggle – Olist Brazilian E-Commerce Dataset
+- ~100K Orders
+- 9 Relational Tables
+- Multiple years of transactional data
 
-Project Workflow
-Raw Dataset
-    ↓
-Data Cleaning (Python)
-    ↓
-PostgreSQL Database
-    ↓
-SQL Business Analysis
-    ↓
-Power BI Logistics & Operations Dashboard
-    ↓
-Monthly Revenue Forecasting
+### Data Cleaning
+- Removed duplicates
+- Treated missing values
+- Converted date columns to datetime format
+- Corrected inconsistent data types
+- Merged relational tables for analysis
+- Prepared analytical datasets for SQL and Power BI
 
-Project Components
-Data Cleaning
-Cleaned and preprocessed raw data using Python.
-Handled missing values, duplicates, and data type inconsistencies.
-Prepared the dataset for SQL analysis and visualization.
-SQL Business Analysis
+### SQL Business Analysis
+Performed 25+ SQL queries covering:
+- Revenue Analysis
+- Sales Trends
+- Customer Analysis
+- Product Performance
+- Seller Performance
+- Payment Analysis
+- Logistics & Delivery Analysis
+- Order Status Analysis
 
-Performed SQL analysis to answer business questions across:
-Sales Performance
-Customer Analysis
-Product Performance
-Seller Performance
-Payment Analysis
-Logistics & Operations
-Power BI Dashboard
+### Logistics & Operations Dashboard
+KPIs
+- Total Orders
+- Total Sellers
+- Average Shipping Days
+- Total Freight Cost
+- Average Review Score
 
-Developed an interactive Logistics & Operations Dashboard to monitor operational performance through key KPIs and visualizations.
+Visualizations
+- Delivery Time by State
+- Shipping Days by Product Category
+- Freight Cost by Product Category
+- Payment Type Analysis
+- Review Score by Delivery Group
 
-Dashboard Highlights
-Total Orders
-Average Delivery Time
-Average Freight Cost
-Order Status Distribution
-Delivery Performance by Product Category
-Seller Performance
-Revenue Forecasting
+### Monthly Revenue Forecasting
+- Aggregated monthly sales revenue
+- Built a Prophet forecasting model
+- Forecasted future monthly revenue
+- Visualized trend and confidence intervals
+- Evaluated long-term sales growth patterns
 
-Forecasted monthly revenue using the Prophet time series model to estimate future sales trends.
+##Business Insights
+- São Paulo contributed the highest order volume.
+- Delivery time varied significantly across product categories.
+- Bed, Bath & Table generated the highest freight cost.
+- Credit Card was the dominant payment method.
+- Higher delivery times were associated with lower customer review scores.
+- Most orders were delivered successfully, indicating efficient logistics operations.
 
-Business Insights (Logistics & Operations)
-Most orders were delivered successfully, indicating an efficient fulfillment process.
-Delivery time varied across product categories, highlighting opportunities for logistics optimization.
-Freight costs differed significantly among product categories, suggesting scope for shipping cost optimization.
-Order status analysis identified delayed and canceled orders for operational monitoring.
-Seller performance analysis helped identify high-volume sellers and delivery trends.
-Delivery performance metrics can support improvements in operational efficiency and customer satisfaction.
-
-SQL for Business Analysis
-Relational Database Management
-Power BI Dashboard Development
-Time Series Forecasting
-Data Visualization
-
-Dataset:Olist-Brazilian-E-Commerce from Kaggle
 Power BI Dashboard:
 https://drive.google.com/file/d/1UJln4l6apv7ozjNVKTkHet8tLLPir2n-/view?usp=sharing
